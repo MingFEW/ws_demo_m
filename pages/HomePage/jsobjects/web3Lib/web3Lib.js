@@ -1,4 +1,5 @@
 export default {
+	rpc: "https://polygon-mumbai-pokt.nodies.app",
 	balance: '0',
 	wAddress: '',
 	onDisconnectWallet() {
@@ -12,7 +13,7 @@ export default {
 			return this.balance;
 		}
 
-		const rpc = "https://polygon-mumbai-pokt.nodies.app";
+		const rpc = web3Lib.rpc;
 		const provider = new Web3.providers.HttpProvider(rpc);
 		const web3 = new Web3(provider);
 
@@ -27,5 +28,9 @@ export default {
 		}
 		// storeValue('wBalance', this.balance, true);
 		return web3Lib.balance;
+	},
+	async readContract() {
+		const questions = await fetch("https://jsonplaceholder.typicode.com/todos/1");
+		return questions.json();
 	}
 }

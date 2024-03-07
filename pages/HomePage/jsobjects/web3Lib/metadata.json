@@ -8,6 +8,10 @@
     "archivedActions": [],
     "variables": [
       {
+        "name": "rpc",
+        "value": "\"https://polygon-mumbai-pokt.nodies.app\""
+      },
+      {
         "name": "balance",
         "value": "'0'"
       },
