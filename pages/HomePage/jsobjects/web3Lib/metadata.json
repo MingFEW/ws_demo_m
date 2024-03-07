@@ -18,6 +18,10 @@
       {
         "name": "wAddress",
         "value": "''"
+      },
+      {
+        "name": "sc",
+        "value": "''"
       }
     ],
     "userPermissions": []
