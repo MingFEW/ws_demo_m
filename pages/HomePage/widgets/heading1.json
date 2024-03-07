@@ -8,8 +8,8 @@
         "paragraph",
         "label"
     ],
-    "topRow": 9,
-    "bottomRow": 17,
+    "topRow": 8,
+    "bottomRow": 16,
     "parentRowSpace": 10,
     "type": "TEXT_WIDGET",
     "hideCard": false,
@@ -19,7 +19,7 @@
     "fontFamily": "Ubuntu",
     "parentColumnSpace": 23.0625,
     "dynamicTriggerPathList": [],
-    "leftColumn": 23,
+    "leftColumn": 26,
     "dynamicBindingPathList": [
         {"key": "truncateButtonColor"},
         {"key": "borderRadius"}
@@ -29,7 +29,7 @@
     "text": "Web3    Polygon Chain",
     "key": "trybfriwbo",
     "isDeprecated": false,
-    "rightColumn": 39,
+    "rightColumn": 36,
     "textAlign": "CENTER",
     "dynamicHeight": "AUTO_HEIGHT",
     "widgetId": "5jj08jm092",
@@ -47,11 +47,11 @@
     "isLoading": false,
     "mobileTopRow": 10,
     "responsiveBehavior": "fill",
-    "originalTopRow": 9,
+    "originalTopRow": 8,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 23,
     "maxDynamicHeight": 9000,
-    "originalBottomRow": 17,
+    "originalBottomRow": 16,
     "fontSize": "1.875rem",
     "minDynamicHeight": 4
 }
