@@ -15,7 +15,11 @@
   },
   "color": "#F1DEFF",
   "icon": "alien",
-  "unpublishedCustomJSLibs": [],
+  "unpublishedCustomJSLibs": [
+    {
+      "uidString": "Web3_https://cdn.jsdelivr.net/npm/web3@4.5.0/dist/web3.min.js"
+    }
+  ],
   "publishedCustomJSLibs": [],
   "evaluationVersion": 2,
   "applicationVersion": 2,

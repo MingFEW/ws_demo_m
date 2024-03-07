@@ -1,0 +1,11 @@
+{
+  "name": "Web3",
+  "uidString": "Web3_https://cdn.jsdelivr.net/npm/web3@4.5.0/dist/web3.min.js",
+  "accessor": [
+    "Web3"
+  ],
+  "url": "https://cdn.jsdelivr.net/npm/web3@4.5.0/dist/web3.min.js",
+  "version": "4.5.0",
+  "defs": "{\"!name\":\"LIB/Web3\",\"Web3\":{\"!type\":\"fn()\",\"prototype\":{\"requestManager\":{},\"subscriptionManager\":{},\"wallet\":{},\"accountProvider\":{},\"getContextObject\":{},\"use\":{},\"link\":{},\"registerPlugin\":{},\"provider\":{}},\"version\":{},\"utils\":{},\"modules\":{}}}",
+  "deleted": false
+}

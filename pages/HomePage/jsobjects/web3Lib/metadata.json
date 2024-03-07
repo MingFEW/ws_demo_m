@@ -1,0 +1,24 @@
+{
+  "unpublishedCollection": {
+    "name": "web3Lib",
+    "pageId": "HomePage",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [
+      {
+        "name": "balance",
+        "value": "'0'"
+      },
+      {
+        "name": "wAddress",
+        "value": "''"
+      }
+    ],
+    "userPermissions": []
+  },
+  "id": "HomePage_web3Lib",
+  "deleted": false,
+  "gitSyncId": "65e9912eb0956412fb94af2e_65e99373b0956412fb94af39"
+}
