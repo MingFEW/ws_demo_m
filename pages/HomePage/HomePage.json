@@ -26,7 +26,21 @@
           "dynamicBindingPathList": [],
           "leftColumn": 0
         },
-        "layoutOnLoadActions": [],
+        "layoutOnLoadActions": [
+          [
+            {
+              "id": "HomePage_web3Lib.readContract",
+              "name": "web3Lib.readContract",
+              "collectionId": "HomePage_web3Lib",
+              "confirmBeforeExecute": false,
+              "pluginType": "JS",
+              "jsonPathKeys": [
+                "async function () {\n  const questions = await fetch(\"https://jsonplaceholder.typicode.com/todos/1\");\n  return questions.json();\n}"
+              ],
+              "timeoutInMillisecond": 10000
+            }
+          ]
+        ],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
         "id": "HomePage",
